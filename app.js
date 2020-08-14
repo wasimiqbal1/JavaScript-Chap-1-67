@@ -499,4 +499,246 @@ var objectB = new object();*/
 /*var cities = ["karachi", "Lahore", "Faislabad", "Multan"];*/
 
 // ==== Chapter-14-16 & Task-4
-var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+//var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+// ==== Chapter-14-16 & Task-5  
+/*var a =[];
+var b = 2;
+for(var i=0; i<b; i++){
+alert("false")
+}*/
+
+// ==== Chapter-14-16 & Task-6  
+//var mixedArray = [1, "wasi", "Now is", true];
+
+// ==== Chapter-14-16 & Task-7  
+/*var qualification =["<h3>1) SSC<br>2) HSC <br> 3) BCS<br> 4) BS<br> 5) B.COM<br> 6) MS <br> 7) MPHIL. <br> 8) PHD<br>"];
+document.write("<h1>Qualifications:</h1>")
+
+for(var i=0; i<qualification.length; i++ ){
+    break
+}
+{
+    document.write(qualification)
+}*/
+
+// ==== Chapter-14-16 & Task-8  
+/*var names =["Micheal", "John","Tony"];
+var scores =[320,230,480];
+var totalM =500;
+var percentage = [(scores[0] /totalM)*100,(scores[1] /totalM)*100,(scores[2] /totalM)*100] ;
+document.write("<h2>Score of "+names[0]+" is "+scores[0]+". Percentage "+percentage[0]+"%");
+document.write("<h2>Score of "+names[1]+" is "+scores[1]+". Percentage "+percentage[1]+"%");
+document.write("<h2>Score of "+names[2]+" is "+scores[2]+". Percentage "+percentage[2]+"%");*/
+
+// ==== Chapter-14-16 & Task-9
+/*a)
+var color =[" purple "," black "," white "];
+document.write("<h3>Color Names</h3>"+color)
+var addcolor =prompt("Enter a color that you want to add to the beginning of array");
+color.unshift(addcolor)
+document.write("<h3>Updated Color Names</h3>"+color);*/
+
+/*b)
+var color =[" purple "," black "," white "];
+document.write("<h3>Color Names</h3>"+color)
+var addcolor =prompt("Enter a color that you want to add to the end of array");
+color.push(addcolor)
+document.write("<h3>Updated Color Names</h3>"+color);*/
+
+/*c)
+var color =[" purple "," black "," white "];
+document.write("<h3>Color Names</h3>"+color)
+var addcolor1 =prompt("Enter a color that you want to add to the beginning of array");
+var addcolor2 =prompt("Enter a color that you want to add to the beginning of array");
+color.unshift(addcolor1 ,addcolor2 )
+document.write("<h3>Updated Color Names</h3>"+color);*/
+
+/*d)
+var color =["purple","black","white"];
+document.write("<h3>Color Names</h3>"+color)
+color.shift()
+document.write("<h3>Updated Color Names</h3>"+color);*/
+
+/*e)
+var color =["purple","black","white"];
+document.write("<h3>Color Names</h3>"+color)
+color.pop()
+document.write("<h3>Updated Color Names</h3>"+color);*/
+
+/*f)
+/*var color =["purple","black","white"];
+document.write("<h3>Color Names</h3>"+color)
+var position =prompt("Enter your desier position/index of array (0-5)");
+var addcolor =prompt("Enter a color that you want to add to the  array");
+color.splice(position,0,addcolor)
+document.write("<h3>Updated Color Names</h3>"+color);*/
+
+/*g)
+/*var color =["purple","black","white"];
+document.write("<h3>Color Names</h3>"+color)
+var position =prompt("Enter your desier position/index of array (0-5)");
+var numdelete =prompt("How many color(s) you want to delete");
+color.splice(position,numdelete)
+document.write("<h3>Updated Color Names</h3>"+color);*/
+
+// ==== Chapter-14-16 & Task-10
+/*var scores =[320 , 230 , 480 , 120];
+document.write("<h3>Scores of Students: "+scores);
+scores.sort()
+document.write("<h3>Ordered Scores of Students: "+scores);*/
+
+
+// ==== Chapter-14-16 & Task-11
+/*var cities =[" Karachi ", " Lahore "," Islamabad ", " Quetta ", "Peshawar"];
+document.write("<h3>Cities list:</h3>" +cities);
+var selectedCities =cities.slice(2,4);
+document.write("<h3>Selected cities list</h3> "+selectedCities);*/
+
+// ==== Chapter-14-16 & Task-12
+/*var arr=[" This "," is "," my "," cat "];
+document.write("<h3>Array:</h3>"+arr)
+var arr1=arr.join(""," This "," is "," my "," cat ");
+document.write("<h3>String:</h3>"+arr1);*/
+
+// ==== Chapter-14-16 & Task-13
+/*var names =["keyboard", "mouse", "printer ", "monitor "];
+document.write("<h3>Devices</h3>"+names+"<br>");
+document.write("<h4>out:</h4>"+ names[0]);
+document.write("<h4>out:</h4>"+ names[1]);
+document.write("<h4>out:</h4>"+ names[2]);
+document.write("<h4>out:</h4>"+ names[3]);*/
+
+// ==== Chapter-14-16 & Task-14
+/*var names =["keyboard", "mouse", "printer ", "monitor "];
+document.write("<H2>Devices</h2>"+names+"<br>");
+for(var i=names.length-1;i>=0;i--){
+    document.write("<h3>out:</h3>"+ names[i])
+    }*/
+
+// ==== Chapter-14-16 & Task-15
+/*var arr = ["Apple", "Nokia", "Samsung", "Motorola", "Sony & Haier"];
+document.write("<select>")
+for (var i = 0; i < arr.length; i++) {
+    document.write("<option>" + arr[i] + "</option>")
+}
+document.write("</select>");*/
+
+// ==== Chapter-17-20 & Task-1
+/*var a = [
+    [],
+    [],
+    []
+];
+document.write(a);*/
+
+// ==== Chapter-17-20 & Task-2
+/*var c = ["<h3>" + [0,1,2,3] + "<br>", [1,0,1,2] + "<br>", [2,1,0,1]];
+document.write(c);*/
+
+// ==== Chapter-17-20 & Task-3
+/*var a = [1]
+for (a = 1; a <= 10; a++) {
+    document.write(a + "<br>")
+}*/
+
+// ==== Chapter-17-20 & Task-4
+/*var table = +prompt("Enter a number to show its miltiplication table.");
+var lenght = +prompt("Enter length multiplication table.");
+for (var i = 1; i <= lenght; i++) {
+    document.write(table + " x " + i + " = " + table * i + "<br>")
+}*/
+
+// ==== Chapter-17-20 & Task-5
+/*var fruit = ["apple", "banana", "mango", "orange", "strawberry"];
+for (i = 0; i < fruit.length; i++) {
+    document.write(fruit[i] + "<br>")
+}
+document.write("Element at index 0 is " + fruit[0] + "<br>");
+document.write("Element at index 1 is " + fruit[1] + "<br>");
+document.write("Element at index 2 is " + fruit[2] + "<br>");
+document.write("Element at index 3 is " + fruit[3] + "<br>");
+document.write("Element at index 4 is " + fruit[4]);*/
+
+// ==== Chapter-17-20 & Task-6
+/* a. Counting:
+var counting = [1];
+document.write(" <h3>Counting:</h3> ")
+for (counting = 1; counting <= 15; counting++) {
+    document.write(counting + ",\n")
+}
+
+
+// b. Reverse Counting:   
+var counting = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+document.write(" <h3>Reverse Counting:</h3> ")
+for (var i = counting.length - 1; i >= 0; i--) {
+    document.write(counting[i] + ",\n")
+}
+
+
+//         // c. Even:       
+document.write("<br>" + " <h3>Even:</h3> ")
+var i;
+for (var i = 0; i <= 20; i++) {
+    if ((i % 2) === 0) {
+        document.write(i + ",\n")
+    }
+}
+
+
+// d. Odd:
+document.write("<br>" + " <h3>Odd: </h3>")
+var i;
+for (var i = 0; i < 20; i++) {
+    if ((i % 2) !== 0) {
+        document.write(i + ",\n")
+    }
+}
+
+
+//  e. Series:
+document.write("<br>" + "<h3>Series:</h3> ")
+var i;
+for (var i = 2; i <= 20; i++) {
+    if ((i % 2) === 0) {
+        document.write(i + "k,\n")
+    }
+}*/
+
+// ==== Chapter-17-20 & Task-7
+/*var A = ["cake", "apple pie", "cookie", "chips", "patties"];
+var search = prompt("Welcome to our Bakery, what do you want to order sir/ma'am");
+if (A.indexOf(search) !== -1) {
+    if (search == A[0]) {
+        alert(search + " is available at index 0 in our Bakery")
+    } else if (search == A[1]) {
+        alert(search + " is available at index 1 in our Bakery")
+    } else if (search == A[2]) {
+        alert(search + " is available at index 2 in our Bakery")
+    } else if (search == A[3]) {
+        alert(search + " is available at index 3 in our Bakery")
+    } else if (search == A[4]) {
+        alert(search + " is available at index 4 in our Bakery")
+    }
+
+} else {
+    alert("We are sorry. " + search + " is not available in our bakery")
+}*/
+
+// ==== Chapter-17-20 & Task-8
+/*var a = [24, 53, 78, 91, 12];
+document.write("The Array Items: " + a + "<br>")
+a = Math.max(24, 53, 78, 91, 12);
+document.write("The largest number is " + a);*/
+
+// ==== Chapter-17-20 & Task-9
+/*var a = [24, 53, 78, 91, 12];
+document.write("The Array Items: " + a + "<br>")
+a = Math.min(24, 53, 78, 91, 12);
+document.write("The Smallest number is " + a);*/
+
+// ==== Chapter-17-20 & Task-10
+/*for (var i = 1; i <= 20; i++) {
+    document.write(5 * i + "\n")
+}*/
