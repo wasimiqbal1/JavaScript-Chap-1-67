@@ -742,3 +742,136 @@ document.write("The Smallest number is " + a);*/
 /*for (var i = 1; i <= 20; i++) {
     document.write(5 * i + "\n")
 }*/
+
+// ==== Chapter-21-25 & Task-1
+/*var firstName = prompt("Enter your first name", "Your first name is:");
+var lastName = prompt("Enter your last name", "Your last name is:");
+var fullName = firstName + " " + lastName;
+alert(fullName);*/
+
+// ==== Chapter-21-25 & Task-2
+/*var a = prompt("Enter your favorite mobile phone model");
+var a = ("Samsung Galaxy S6 Edge plus ");
+document.write("My favorite phone is: " + a + "<br>" + "Length of string is: " + a.length);*/
+
+// ==== Chapter-21-25 & Task-3
+/*var a = ("Pakistan");
+document.write("String: " + a + "<br>" + "index of 'n': " + a.indexOf("n"));*/
+
+// ==== Chapter-21-25 & Task-4
+/*var a = "Hello World";
+document.write("String: " + a + "<br>");
+var b = a.lastIndexOf("l");
+document.write("Last index of 'l': " + b);*/
+
+// ==== Chapter-21-25 & Task-5
+/*var a = "Pakistan";
+document.write("String: " + a + "<br>" + "Character at index 3: " + a.charAt("3"));*/
+
+// ==== Chapter-21-25 & Task-7
+/*var a = "Hyderabad";
+document.write("City: " + a + "<br>");
+var newText = a.replace("Hyderabad", "Islamabad");
+document.write("After replacement: " + newText);*/
+
+// ==== Chapter-21-25 & Task-8
+/*var message = "Ali and Sami are best friends.They play cricket and football together." + "<br>";
+document.write(message);
+var b = message.replace(/and/g, "&");
+document.write(b);*/
+
+// ==== Chapter-21-25 & Task-9
+/*var value = prompt("Enter the value");
+document.write("Value : " + value + "<br>" + "Type :" + typeof(value) + "<br>");
+var valueint = parseInt(value);
+document.write("Value : " + valueint + "<br>" + "Type :" + typeof(valueint));*/
+
+// ==== Chapter-21-25 & Task-10
+/*var user = prompt("input");
+document.write("User input : " + user + "<br>");
+var userCase = user.toUpperCase();
+document.write("UpperCase: " + userCase);*/
+
+// ==== Chapter-21-25 & Task-11
+/*var text = prompt("Enter your text");
+var firstLetter = text.slice(0, 1);
+var firstLetConvert = firstLetter.toUpperCase();
+var otherText = text.slice(1);
+var otherTextConvert = otherText.toLowerCase();
+document.write(firstLetConvert + otherTextConvert);*/
+
+// ==== Chapter-21-25 & Task-12
+/*var num = 35.36;
+document.write("Number: " + num + "<br>");
+var nmbr = num * 100
+var newnum = nmbr.toString();
+document.write("Result: " + newnum);*/
+
+// ==== Chapter-21-25 & Task-13
+/*var userName = prompt("Enter your user name");
+for (var i = 0; i <= userName.length; i++) {
+    if (userName[i] == "!") {
+        alert("Please enter a valid username");
+    } else if (userName[i] == ",") {
+        alert("Please enter a valid username");
+    } else if (userName[i] == ".") {
+        alert("Please enter a valid username");
+    } else if (userName[i] == "@") {
+        alert("Please enter a valid username");
+    } else {
+        alert("correct");
+    }
+}*/
+
+// ==== Chapter-21-25 & Task-14
+/*var A = ["cake", "apple pie", "cookie", "chips", "patties"];
+var input = prompt("Welcome to ABC bakery. what do u want to order sir/ma'am?");
+var inputConvert = input.toLowerCase();
+if (A.indexOf(inputConvert) !== -1) {
+    if (inputConvert == A[0]) {
+        alert(inputConvert + " is available at index 0 in our Bakery");
+    } else if (inputConvert == A[1]) {
+        alert(inputConvert + " is available at index 1 in our Bakery");
+    } else if (inputConvert == A[2]) {
+        alert(inputConvert + " is available at index 2 in our Bakery");
+    } else if (inputConvert == A[3]) {
+        alert(inputConvert + " is available at index 3 in our Bakery");
+    } else if (inputConvert == A[4]) {
+        alert(inputConvert + " is available at index 4 in our Bakery");
+    }
+
+} else {
+    alert("We are sorry. " + inputConvert + " is not available in our bakery")
+}*/
+
+// ==== Chapter-21-25 & Task-15
+/*var password = prompt("Enter your password. it should be the combination of alphabates & Nums.");
+if (password.match(/^[a-zA-Z]\w{1,6}$/gi)) {
+    alert("Correct");
+} else {
+    alert("Please enter a valid password");
+}*/
+
+// ==== Chapter-21-25 & Task-16
+/*var university = "University of Karachi";
+var ar = university.split('');
+
+for (var i = 0; i < ar.length; i++) {
+    document.write(ar[i] + "<br>");
+}*/
+
+
+// ==== Chapter-21-25 & Task-17
+/*var userInput = "Pakistan";
+var b = userInput.length - 1;
+
+document.write("User input: " + userInput + "<br>" + "Last character of input: " + userInput.charAt(b));*/
+
+// ==== Chapter-21-25 & Task-18
+/*var a = "The quick brown fox jumps over the lazy dog";
+var aConvert = a.toLowerCase();
+var b = aConvert.match(/the/g).length;
+
+document.write("Text: " + a + "<br>");
+
+document.write("There are " + b + " occurences of word 'the'");*/
